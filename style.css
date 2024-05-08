@@ -1,0 +1,27 @@
+body {
+    
+    /* default */
+    --default: red;
+    
+    /* background color of the body element */
+    --background-color: rgb(44, 55, 70);
+    
+    /* navbar colors */
+    --navbar-base: rgb(33, 35, 73);
+    --navbar-link: rgb(255, 255, 255);
+
+
+
+    /* css for the body */
+    background-color: var(--background-color);
+
+}
+
+.Navbar-Base {
+    /**/
+}
+
+.Navbar-Base .Navbar-Link .Link {
+    text-decoration: none;
+    color: var(--default);
+}
