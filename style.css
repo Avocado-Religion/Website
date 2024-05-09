@@ -4,24 +4,29 @@ body {
     --default: red;
     
     /* background color of the body element */
-    --background-color: rgb(44, 55, 70);
+    --background-color: #323949;
     
     /* navbar colors */
-    --navbar-base: rgb(33, 35, 73);
-    --navbar-link: rgb(255, 255, 255);
+    --navbar-base: #212129;
+    --navbar-link: #ffffff;
 
 
 
     /* css for the body */
     background-color: var(--background-color);
-
+    margin: 0px;
 }
 
 .Navbar-Base {
-    /**/
+    background-color: var(--navbar-base);
+    width: max;
+    height: 30px;
 }
 
-.Navbar-Base .Navbar-Link .Link {
+.Link {
     text-decoration: none;
-    color: var(--default);
+    color: var(--navbar-link);
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
