@@ -6,6 +6,8 @@ body {
     --gray: #adacac;
     --dark-blue: #466265;
     --light-blue: #7097A2C6;
+    --blue-selected: #aac8dc;
+    --blue-selected-hover: #AAC8DCB5;
     --white: #cccaca;
     --background-color: #91a2a4;
 
@@ -35,7 +37,7 @@ body {
     font-family: "Leelawadee UI", Arial, Helvetica, sans-serif;
     margin: 15px;
     font-size: 18px;
-  }
+}
 .Link:hover {
     color: var(--gray);
     text-decoration: none;
