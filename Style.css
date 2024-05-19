@@ -13,8 +13,9 @@ body {
 
     background-color: var(--background-color);
 }
-.navbar-wrapper {
+.Navbar-Wrapper {
     position: sticky;
+    top: 0;
 }
 
 .Navbar-Base {
@@ -44,5 +45,5 @@ body {
 }
 
 .Link:last-child {
-    margin-left: 84%;
+    margin-left: 79%;
 }
