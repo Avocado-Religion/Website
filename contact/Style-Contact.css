@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+
+    --dark-black: #2f323d;
+    --light-black: #353c46;
+    --gray: #adacac;
+    --dark-blue: #466265;
+    --light-blue: #7097A2C6;
+    --blue-selected: #aac8dc;
+    --blue-selected-hover: #AAC8DCB5;
+    --white: #cccaca;
+    --background-color: #91a2a4;
+
+    background-color: var(--background-color);
+}
+.navbar-wrapper {
+    position: sticky;
+}
+
+.Navbar-Base {
+    height: 50px;
+    width: 100%;
+    background-color: var(--dark-black);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.Navbar-Links {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+}
+
+.Link {
+    color: var(--white);
+    text-decoration: none;
+    font-family: "Leelawadee UI", Arial, Helvetica, sans-serif;
+    margin: 15px;
+    font-size: 18px;
+}
+.Link:hover {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.Link:last-child {
+    margin-left: 84%;
+}
